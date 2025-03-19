@@ -19,13 +19,49 @@ public class Coin {
 
     public Coin(double value){
 
+        if(value == 0.01){
+
+        }
+        else if(value == 0.05){
+
+        }
+        else if(value == 0.10){
+
+        }
+        else if(value == 0.25){
+
+        }
+        else if(value == 0.50){
+
+        }
+        else if(value == 1.00){
+            
+        }
     }
 
     public Coin(double value, int year){
 
+        if(value == 0.01){
+
+        }
+        else if(value == 0.05){
+
+        }
+        else if(value == 0.10){
+
+        }
+        else if(value == 0.25){
+
+        }
+        else if(value == 0.50){
+
+        }
+        else if(value == 1.00){
+
+        }
     }
 
     public String toString(){
-        return "";
+        return String.format("");
     }
 }
